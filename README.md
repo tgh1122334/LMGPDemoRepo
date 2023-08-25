@@ -2,6 +2,7 @@
 Data and code for LMGP
 
 # IOzone data
+The IOzone data is in `Data` folder:
     AllThroughputs.Rda
     AllThroughputs_summarized.Rda
     all_cate.Rdata
