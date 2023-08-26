@@ -12,3 +12,6 @@ The R and C++ functions are in `src`:
 - lib_funcategp_seppar.cpp contains the model code, for example, the likelihood function.
 - lib_lmgp_final.R uses the C++ likelihood function and performs the maximum likelihood optimization.
 - lib_simulation.R contains the code doing simulation. For example, it has wrap functions that perform the data train-test splitting, model fitting, predicting testsets, and calculating error metrics.
+
+# Example
+The `example.R` provides an example using the functions to generate the train-test dataset, and train 4 models in the paper (GP, CGP, LMGP, and LMGP-S).
