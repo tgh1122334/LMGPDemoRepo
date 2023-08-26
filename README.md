@@ -5,4 +5,4 @@ Data and code for LMGP
 The IOzone data is in `Data`:
 - AllThroughputs.Rda: throughputs on each configuration.
 - AllThroughputs_summarized.Rda: summary statistics for each configuration.
-- all_cate.Rdata: fitted spline coefficients for each configuration.
+- initial_writers/random_readers/random_writers/re-readers/readers/rewriters.RData: fitted spline coefficients for configurations in each mode.
