@@ -747,7 +747,7 @@ mat CSK_W_X1X2(const mat& X1, const mat& X2, double rmax)
     // int n1=X1.n_rows;
 	// int n2=X2.n_rows;
 	int p=X1.n_cols;
-	double v = ((double) p+1.0)/2.0;
+	double v = ((double) p+2.0)/2.0;
     mat distance_matrix=euclid_dist_mat_X1X2(X1,X2);
 	//distance_matrix.diag() +=std::numeric_limits<double>::epsilon();
 	distance_matrix = sqrt(distance_matrix);
